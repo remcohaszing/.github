@@ -30,3 +30,8 @@ For reference have a look at
 
 I recommend to use an imperative commit message title starting with an upper case character and to
 include a body, but I don’t enforce a commit message standard for my own projects.
+
+## Financial Support
+
+My open source work is 100% free. However, life is not. If you like my work, please consider
+sponsoring me via [GitHub sponsors](https://github.com/sponsors/remcohaszing).
