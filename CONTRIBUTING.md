@@ -31,6 +31,16 @@ For reference have a look at
 I recommend to use an imperative commit message title starting with an upper case character and to
 include a body, but I don’t enforce a commit message standard for my own projects.
 
+## LLM Usage
+
+Many people use LLMs (often called AI) to assist in their programming to varying degrees. If you use
+an LLM to make changes, that’s ok. Just be honest about it up-front. You are responsible for the
+changes you submit and I expect you to understand them.
+
+If I suspect you are a bot, I will close your issue or PR and if needed, I will report it as spam.
+If you turn out to be a misunderstood human, I’m sorry in advance. I want to be nice, but I have to
+be blunt to deal with LLMs.
+
 ## Financial Support
 
 My open source work is 100% free. However, life is not. If you like my work, please consider
