@@ -1,0 +1,72 @@
+name: Bug Report
+description: File a bug report
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Some general tips:
+
+        - Is it a bug in this project, or somewhere else?
+        - Has the issue been reported before?
+        - Avoid [XY problems](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378)
+  - type: input
+    attributes:
+      label: Link to reproduction
+      description:
+        A link to a [minimal reproducible
+        example](https://stackoverflow.com/help/minimal-reproducible-example). For example via a
+        GitHub repository or [Codesandbox](https://codesandbox.io).
+      placeholder: https://github.com/<username>/<repository>
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Steps to reproduce
+      description: How can the bug be reproduced?
+      value: |
+        1.
+        2.
+        3.
+        …
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Expected behaviour
+      description: What should happen?
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Actual behaviour
+      description: What happened instead?
+      placeholder: |
+        The following error occurred:
+
+        ```
+        Uncaught Error: Oh no!
+          at fn (index.js:42:7)
+        ```
+  - type: input
+    attributes:
+      label: Runtime
+      description: The runtime where the bug occurred.
+      placeholder: Node.js 20, Google Chrome 120
+  - type: input
+    attributes:
+      label: Build tools
+      description: Did you use any build tools? If so, which ones?
+      placeholder: E.g. Webpack 5, Babel 7, ESBuild 0.19
+  - type: checkboxes
+    attributes:
+      label: Can you fix this bug?
+      description: Beware that significant bugs often require discussing.
+      options:
+        - label: I can fix it
+  - type: input
+    attributes:
+      label: Sponsorship
+      description: Are you willing to sponsor me to fix this issue?
+      placeholder: €5 per month

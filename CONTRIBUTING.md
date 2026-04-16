@@ -20,7 +20,7 @@ project. GitHub actions are used to verify the code adheres to these tools.
 
 ## Gitignore
 
-Please don’t commit files that are related to your local development environment such as editor or
+Don’t commit files that are related to your local development environment such as editor or
 operating system files. It is your responsibility to not commit them. It helps to
 [configure a global gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files#configuring-ignored-files-for-all-repositories-on-your-computer).
 For reference have a look at
@@ -43,5 +43,5 @@ be blunt to deal with LLMs.
 
 ## Financial Support
 
-My open source work is 100% free. However, life is not. If you like my work, please consider
-sponsoring me via [GitHub sponsors](https://github.com/sponsors/remcohaszing).
+My open source work is 100% free. However, life is not. If you like my work, consider sponsoring me
+via [GitHub sponsors](https://github.com/sponsors/remcohaszing).
