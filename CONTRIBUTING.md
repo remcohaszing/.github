@@ -6,6 +6,12 @@
 - Adhere to coding standards.
 - Keep commits small. Prevent making unrelated changes.
 
+## Language
+
+Use English. I probably don’t understand your primary language, and you probably don’t understand
+mine. English is the middle ground that most people understand to some extent. This is also useful
+if a third party wants to help out.
+
 ## Tests
 
 I try to add tests and achieve 100% code coverage for all of my projects. Some projects are harder
