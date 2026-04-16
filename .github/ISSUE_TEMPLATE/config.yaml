@@ -1,5 +1,0 @@
-blank_issues_enabled: true
-contact_links:
-  - name: Security Policy
-    url: https://github.com/remcohaszing/.github?tab=security-ov-file
-    about: Report vulnerabilities it via the “Security” tab of the GitHub project
